@@ -1,0 +1,13 @@
+﻿@using DeathByWords.Core.Models
+@{
+    ViewBag.Title = "Past reads";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Past Reads</h2>
+
+@foreach (Book book in ViewBag.ListofBooks)
+{
+ @Html.Partial("BookSummary", book)
+}

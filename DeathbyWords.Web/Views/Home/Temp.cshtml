@@ -1,0 +1,11 @@
+﻿@using DeathbyWords.Core.Services
+@{
+    ViewBag.Title = "Temp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Temp</h2>
+
+
+
+Volume Data: @GoogleBooksService.getListofVolumes(GoogleBooksService.Shelves.Recommendations)
