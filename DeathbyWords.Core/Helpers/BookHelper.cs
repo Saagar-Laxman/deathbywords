@@ -17,30 +17,11 @@ namespace DeathByWords.Web.Helpers
 {
     public static class BookHelper
     {
-        public static string ConstructRecommendationsShelfUrl()
-        {
-            string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
-            string shelfUrl = ConfigurationManager.AppSettings["ToReadShelfURL"];
-            string key = ConfigurationManager.AppSettings["GoogleBooksAPIKey"];
-
-            return baseUrl + shelfUrl + "?key=" + key;
-        }
-        public static string ConstructHaveReadAndReviewedShelfUrl()
-        {
-            string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
-            string shelfUrl = ConfigurationManager.AppSettings["HaveReadShelfURL"];
-            string key = ConfigurationManager.AppSettings["GoogleBooksAPIKey"];
-
-            return baseUrl + shelfUrl + "?key=" + key;
-        }
-        public static string ConstructCurrentlyReviewingShelfUrl()
-        {
-            string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
-            string shelfUrl = ConfigurationManager.AppSettings["ReadingShelfURL"];
-            string key = ConfigurationManager.AppSettings["GoogleBooksAPIKey"];
-
-            return baseUrl + shelfUrl + "?key=" + key;
-        }
+       
+        /// <summary>
+        /// Uses config keys to construct a url for the Google service to call and access the Recommendations shelf.
+        /// </summary>
+        /// <returns>Constructed url</returns>
         public static string ConstructRecommendationsVolumesUrl()
         {
             string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
@@ -49,6 +30,11 @@ namespace DeathByWords.Web.Helpers
             string volumesUrl = ConfigurationManager.AppSettings["volumeUrl"];
             return baseUrl + shelfUrl + volumesUrl + "?key=" + key;
         }
+
+        /// <summary>
+        /// Uses config keys to construct a url for the Google service to call and access the Read shelf.
+        /// </summary>
+        /// <returns>Constructed url</returns>
         public static string ConstructReadAndReviewedVolumesUrl()
         {
             string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
@@ -57,6 +43,11 @@ namespace DeathByWords.Web.Helpers
             string volumesUrl = ConfigurationManager.AppSettings["volumeUrl"];
             return baseUrl + shelfUrl + volumesUrl + "?key=" + key;
         }
+
+        /// <summary>
+        /// Uses config keys to construct a url for the Google service to call and access the Reading shelf.
+        /// </summary>
+        /// <returns>Constructed url</returns>
         public static string ConstructCurrentlyReviewingVolumesUrl()
         {
             string baseUrl = ConfigurationManager.AppSettings["BaseURL"];
@@ -66,6 +57,11 @@ namespace DeathByWords.Web.Helpers
             return baseUrl + shelfUrl + volumesUrl + "?key=" + key;
         }
 
+        /// <summary>
+        /// Uses a url to access GoogleBooks and bring back a Shelf object.
+        /// </summary>
+        /// <param name="url">URL for shelf</param>
+        /// <returns>Shelf object</returns>
         public static Shelf GetShelf(string url)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);

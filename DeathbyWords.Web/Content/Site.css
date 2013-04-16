@@ -18,12 +18,31 @@ header, footer, nav, section {
     color: white;
 }
 
+.aboutText {
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
 .bookText {
     float: left; 
     width: 65%; 
     font-size: 26px;
     font-family: Lucida Sans;
     font-style: italic;
+}
+
+.mainImage {
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .bookImage {
@@ -95,7 +114,8 @@ header, footer, nav, section {
     border-left: 0 none;
 }
 .horizontal-nav ul li a:hover {
-    background: #12808a;
+    background: white;
+    color: black;
 }
 .horizontal-nav ul li:first-child a {
     border-top-left-radius: 6px;
@@ -233,13 +253,13 @@ textarea {
 {
     width: 34px;
     height: 30px;
-    background: #c9f055; /* Old browsers */
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c9f055), to(#95e21a));
-    background-image: -moz-linear-gradient(#c9f055, #95e21a);
-    background-image: -webkit-linear-gradient(#c9f055, #95e21a);
-    background-image: -o-linear-gradient(#c9f055, #95e21a);
-    background: -ms-linear-gradient(#c9f055, #95e21a);
-    background: linear-gradient(#c9f055, #95e21a);
+    background: #ff0000; /* Old browsers */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff0000), to(#ff0000));
+    background-image: -moz-linear-gradient(#ff0000, #ff0000);
+    background-image: -webkit-linear-gradient(#ff0000, #ff0000);
+    background-image: -o-linear-gradient(#ff0000, #ff0000);
+    background: -ms-linear-gradient(#ff0000, #ff0000);
+    background: linear-gradient(#ff0000, #ff0000);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9f055', endColorstr='#95e21a',GradientType=0 ); /* IE6-9 */
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -259,7 +279,7 @@ textarea {
 }
 .akordeon-icon span
 {
-    color: #83a626;
+    color: black;
     font-size: 36px;
     position: absolute;
     left: 6px;
@@ -289,7 +309,7 @@ textarea {
 
 .akordeon-item.expanded .akordeon-heading
 {
-    color: #c9f055;
+    color: skyblue;
 }
 
 .akordeon-item.expanded .akordeon-item-head

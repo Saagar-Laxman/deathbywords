@@ -18,8 +18,5 @@ namespace DeathbyWords.Services.Models
 
         [DataMember]
         public List<Book> items { get; set; }
-
-        //public List<Book> items { get; set; }
- 
     }
 }

@@ -3,8 +3,8 @@
 <head class="mainHead">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
     
+    @*JS imports*@
     <script src="~/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="~/Scripts/jquery-ui-1.8.20.min.js" type="text/javascript"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
@@ -17,17 +17,12 @@
     <script src="~/lib/Plugins/akordeon/source/js/jquery.akordeon.js"></script>
     <script src="~/lib/Plugins/sebnitu-HorizontalNav-7f68f94/jquery.horizontalNav.js"></script>
     
-    @*<link href="~/lib/Plugins/akordeon/../akordeon/source/css/jquery.akordeon.css" type="text/css" rel="stylesheet"/>*@
+    
+    @*CSS imports*@
     <link href="@Url.Content("~/Content/Site.css")" type="text/css" rel="stylesheet"/>
-
-@*    <div class="topMenu">
-        @Html.ActionLink("Home", "Index", "Home")
-        @Html.ActionLink("Reading", "Events", "Book")
-        @Html.ActionLink("Contact", "Contact", "Home")
-        @Html.ActionLink("About us", "About", "Home")
-        @Html.ActionLink("Historical Reads", "Pastreads", "Book")
-    </div>*@
-   <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+    
+    @*Top navigation menu*@
+    <nav class="horizontal-nav full-width horizontalNav-notprocessed">
         <ul>
             <li>@Html.ActionLink("Home", "Index", "Home")</li>
             <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -36,9 +31,6 @@
             <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
         </ul>
     </nav>
-
-   
-
 </head>
 <body class="mainBody">
     @RenderBody()

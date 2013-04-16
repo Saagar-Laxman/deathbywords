@@ -17,20 +17,20 @@ namespace DeathByWords.Core.Models
         [DataMember (Name="id")]
         public string Id { get; set; }
         
-        public string Title { get { return _info.title; }  }
-        public string Description { get { return _info.description; } }
+        public string Title { get { return _info.Title; }  }
+        public string Description { get { return _info.Description; } }
         
         public string ImageURL
         {
             get
             {
                 string url = string.Empty;
-                if (_info.imageLinks != null)
+                if (_info.ImageLinks != null)
                 {
-                    if (_info.imageLinks.ContainsKey("thumbnail"))
-                        url = _info.imageLinks["thumbnail"];
-                    else if (_info.imageLinks.ContainsKey("smallThumbnail"))
-                        url = _info.imageLinks["smallThumbnail"];
+                    if (_info.ImageLinks.ContainsKey("thumbnail"))
+                        url = _info.ImageLinks["thumbnail"];
+                    else if (_info.ImageLinks.ContainsKey("smallThumbnail"))
+                        url = _info.ImageLinks["smallThumbnail"];
                 }
                 return url;
             }
@@ -41,7 +41,7 @@ namespace DeathByWords.Core.Models
             get
             {
                 string authors = string.Empty;
-                foreach (var author in _info.authors)
+                foreach (var author in _info.Authors)
                 {
                     authors += author + ",";
                 }
@@ -50,15 +50,20 @@ namespace DeathByWords.Core.Models
         }
 
 
-
+        /// <summary>
+        /// Private class to assist with parsing JSON
+        /// </summary>
         private class BookInfo
         {
 
-            //TODO - Cleanup with Datamember
-            public string title { get; set; }
-            public string description { get; set; }
-            public Dictionary<string, string> imageLinks { get; set; }
-            public string[] authors { get; set; }
+            [DataMember(Name = "title")]
+            public string Title { get; set; }
+            [DataMember(Name = "description")]
+            public string Description { get; set; }
+            [DataMember(Name = "imageLinks")]
+            public Dictionary<string, string> ImageLinks { get; set; }
+            [DataMember(Name = "authors")]
+            public string[] Authors { get; set; }
         }
     }
 }

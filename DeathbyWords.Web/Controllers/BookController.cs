@@ -13,7 +13,6 @@ namespace DeathByWords.Web.Controllers
     public class BookController : Controller
     {
         
-
         public ActionResult Events()
         {
             List<Book> books = GoogleBooksService.getCurrent();
