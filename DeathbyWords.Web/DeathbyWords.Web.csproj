@@ -186,7 +186,69 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Slider\background.jpg" />
+    <Content Include="Images\Slider\loading_indicator.gif" />
+    <Content Include="Images\Slider\quentinblake.jpg" />
+    <Content Include="Images\Slider\v-for-vendetta.jpg" />
+    <Content Include="Images\Slider\vendetta.jpg" />
+    <Content Include="Images\Slider\whitetigersmall.jpg" />
+    <Content Include="Images\vfv1.jpg" />
+    <Content Include="Images\vfv2.jpg" />
+    <Content Include="Images\vfv3.jpg" />
+    <Content Include="Images\vfv4.jpg" />
+    <Content Include="lib\Fonts\Jellyka_Castle__s_Queen.ttf" />
+    <Content Include="lib\Plugins\akordeon\source\css\demo.css" />
+    <Content Include="lib\Plugins\akordeon\source\css\jquery.akordeon.css" />
+    <Content Include="lib\Plugins\akordeon\source\images\jQuery-minimal-social-media-share-plugin.jpg" />
+    <Content Include="lib\Plugins\akordeon\source\images\pattern.jpg" />
+    <Content Include="lib\Plugins\akordeon\source\index.htm" />
+    <Content Include="lib\Plugins\akordeon\source\js\jquery.akordeon.js" />
+    <Content Include="lib\Plugins\akordeon\source\js\jquery.min.js" />
+    <Content Include="lib\Plugins\akordeon\source\PIE.htc" />
+    <Content Include="lib\Plugins\cloud-carousel.1.0.5.js" />
+    <Content Include="lib\Plugins\cloud-carousel.1.0.5.min.js" />
+    <Content Include="lib\Plugins\jquery.backgroundpos.js" />
+    <Content Include="lib\Plugins\jquery.backgroundpos.min.js" />
+    <Content Include="lib\Plugins\nivo-slider\.DS_Store" />
+    <Content Include="lib\Plugins\nivo-slider\demo\.DS_Store" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\.DS_Store" />
+    <Content Include="lib\Plugins\nivo-slider\demo\scripts\.DS_Store" />
+    <Content Include="lib\Plugins\nivo-slider\README" />
+    <Content Include="lib\Plugins\nivo-slider\themes\.DS_Store" />
+    <Content Include="lib\Plugins\nivo-slider\themes\dark\.DS_Store" />
+    <Content Include="lib\Plugins\sebnitu-HorizontalNav-7f68f94\component.json" />
+    <Content Include="lib\Plugins\sebnitu-HorizontalNav-7f68f94\README.md" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="lib\Plugins\nivo-slider\demo\demo.html" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\dev7logo.png" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\nemo.jpg" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\toystory.jpg" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\up.jpg" />
+    <Content Include="lib\Plugins\nivo-slider\demo\images\walle.jpg" />
+    <Content Include="lib\Plugins\nivo-slider\demo\scripts\jquery-1.9.0.min.js" />
+    <Content Include="lib\Plugins\nivo-slider\demo\style.css" />
+    <Content Include="lib\Plugins\nivo-slider\jquery.nivo.slider.js" />
+    <Content Include="lib\Plugins\nivo-slider\jquery.nivo.slider.pack.js" />
+    <Content Include="lib\Plugins\nivo-slider\license.txt" />
+    <Content Include="lib\Plugins\nivo-slider\nivo-slider.css" />
+    <Content Include="lib\Plugins\nivo-slider\themes\bar\arrows.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\bar\bar.css" />
+    <Content Include="lib\Plugins\nivo-slider\themes\bar\bullets.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\bar\loading.gif" />
+    <Content Include="lib\Plugins\nivo-slider\themes\dark\arrows.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\dark\bullets.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\dark\dark.css" />
+    <Content Include="lib\Plugins\nivo-slider\themes\dark\loading.gif" />
+    <Content Include="lib\Plugins\nivo-slider\themes\default\arrows.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\default\bullets.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\default\default.css" />
+    <Content Include="lib\Plugins\nivo-slider\themes\default\loading.gif" />
+    <Content Include="lib\Plugins\nivo-slider\themes\light\arrows.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\light\bullets.png" />
+    <Content Include="lib\Plugins\nivo-slider\themes\light\light.css" />
+    <Content Include="lib\Plugins\nivo-slider\themes\light\loading.gif" />
+    <Content Include="lib\Plugins\sebnitu-HorizontalNav-7f68f94\index.html" />
+    <Content Include="lib\Plugins\sebnitu-HorizontalNav-7f68f94\jquery.horizontalNav.js" />
     <Content Include="Scripts\GoogleBooks.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -201,7 +263,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\slider.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -219,7 +283,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Book\Events.cshtml" />
-    <Content Include="Views\Home\Temp.cshtml" />
     <Content Include="Views\Book\Pastreads.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -230,7 +293,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DeathbyWords.Services\DeathbyWords.Core.csproj">
+    <ProjectReference Include="..\DeathbyWords.Core\DeathbyWords.Core.csproj">
       <Project>{2e01bcb9-2ebc-4d89-a50e-f44ff3b3646a}</Project>
       <Name>DeathbyWords.Core</Name>
     </ProjectReference>

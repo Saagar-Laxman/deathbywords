@@ -1,203 +1,14 @@
-﻿
-
-header, footer, nav, section {
-    display: block;
-}
-
-.siteHeading {
-    font-size: 30px;
-}
-
-.mainBody {
-    background-color: black;
-}
-
-.normalText {
-    font-family: Lucida Sans Unicode;
-    font-size: 18px;
-    color: white;
-}
-
-.bookText {
-    float: left; 
-    width: 65%; 
-    font-size: 26px;
-    font-family: Lucida Sans;
-    font-style: italic;
-}
-
-.bookImage {
-    width: 20%;
-}
-
-.book-wrapper {
-    border-bottom: 2px solid black;
-    display: block;
-    width: 100%;
-}
-
-
-.topMenu {
-    font-family: "Lucida Sans";
-    font-style: italic;
-    font-size: 30px;
-    text-align: center;
-    padding-left: 5px;
-}
-
-.mainHead {
-    background-color: tan;
-}
-
-.heroImage {
-    width: 60%;
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-}
-
-
-
-/* Styles for menu
------------------------------------------------------------*/
-
-.horizontal-nav {
-    background: black   ;
-    border-radius: 6px;
-}
-.horizontal-nav ul {
-    background: maroon;
-    float: left;
-    text-align: center;
-    border-radius: 6px;
-    border: 1px solid #0e7079;
-}
-.horizontal-nav ul li {
-    float: left;
-    border-left: 1px solid #0e7079;
-}
-.horizontal-nav ul li:first-child {
-    border-left: 0 none;
-}
-.horizontal-nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: white;
-    font-family: Lucida Sans Typewriter;
-    font-style: normal;
-    font: bold;
-    font-size: 20px;
-    border-top: 1px solid rgba(255,255,255, 0.25);
-    border-left: 1px solid rgba(255,255,255, 0.25);
-}
-.horizontal-nav ul li:first-child a {
-    border-left: 0 none;
-}
-.horizontal-nav ul li a:hover {
-    background: #12808a;
-}
-.horizontal-nav ul li:first-child a {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
-.horizontal-nav ul li:last-child a {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-}
-
-
-
-
-/* Styles for sliders
------------------------------------------------------------*/
-
-.slideshow-wrapper {
-    position:relative;
-    height:350px;
-}
-
-.slideshow-wrapper img {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:8;
-}
-
-.slideshow-wrapper img.active {
-    z-index:10;
-}
-
-.slideshow-wrapper img.last-active {
-    z-index:9;
-}
-
-
-/* Styles for basic forms
------------------------------------------------------------*/
-fieldset {
-    border: 1px solid #ddd;
-    padding: 0 1.4em 1.4em 1.4em;
-    margin: 0 0 1.5em 0;
-}
-
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-textarea {
-    min-height: 75px;
-}
-
-.editor-label {
-    margin: 1em 0 0 0;
-}
-
-.editor-field {
-    margin: 0.5em 0 0 0;
-}
-
-
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error {
-    color: #f00;
-}
-
-.field-validation-valid {
-    display: none;
-}
-
-.input-validation-error {
-    border: 1px solid #f00;
-    background-color: #fee;
-}
-
-.validation-summary-errors {
-    font-weight: bold;
-    color: #f00;
-}
-
-.validation-summary-valid {
-    display: none;
-}
-
-
-/*   Styles for Akordeon
--------------------------------------------------------------*/
-
-.akordeon
+﻿.akordeon
 {
     width: auto;
     border: solid 1px black;
-    color: White;
+    color: White;h
     font-family: Arial;
     font-size: 12px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }
 .akordeon-item
 {
@@ -248,7 +59,7 @@ textarea {
     margin: 0;
     float: left;
     cursor: pointer;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }
 .akordeon-heading
 {
@@ -330,7 +141,7 @@ textarea {
     -moz-border-radius-topright: 4px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }
 
 .akordeon-item.akordeon-item-last.collapsed .akordeon-item-head
@@ -342,7 +153,7 @@ textarea {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     border-bottom: none;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }
 .akordeon-item.akordeon-item-last.expanded .akordeon-item-head
 {
@@ -353,7 +164,7 @@ textarea {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom: solid 1px black;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }
 .akordeon-item.akordeon-item-last.expanded .akordeon-item-body
 {
@@ -363,5 +174,5 @@ textarea {
     -moz-border-radius-bottomleft: 4px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+    behavior: url(PIE.htc);
 }

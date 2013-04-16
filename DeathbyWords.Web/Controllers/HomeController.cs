@@ -23,10 +23,9 @@ namespace DeathbyWords.Web.Controllers
         {
             return View();
         }
-        public ActionResult Temp()
+        public ActionResult Slider()
         {
             return View();
         }
-
     }
 }
