@@ -80,6 +80,5 @@ namespace DeathByWords.Web.Helpers
             }
             return new Shelf();
         }
-
     }
 }

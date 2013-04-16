@@ -7,8 +7,8 @@
     <ProjectGuid>{2E01BCB9-2EBC-4D89-A50E-F44FF3B3646A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DeathbyWords.Services</RootNamespace>
-    <AssemblyName>DeathbyWords.Services</AssemblyName>
+    <RootNamespace>DeathbyWords.Core</RootNamespace>
+    <AssemblyName>DeathbyWords.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
