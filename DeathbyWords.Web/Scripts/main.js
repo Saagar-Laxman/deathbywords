@@ -9,7 +9,7 @@
     $('#sliderImg1').attr('data-chosenImage', 'true');
 
     //Set fade interval
-    setInterval(nextImage, 7000);
+    setInterval(nextImage, 4000);
     
     //Setup top nav
     $('.full-width').horizontalNav({});
@@ -18,28 +18,26 @@
     $('.akordeon').akordeon();
 });
 
+
 //Fade between the images. Uses ID's. Should come up with a better way later.
 function nextImage() {
     if ($('#sliderImg1').attr('data-chosenImage') === 'true') {
-        $('#sliderImg2').show("fade", {}, 2000);
-        $('#sliderImg2').attr('data-chosenImage', 'true');
-        $('#sliderImg1').hide();
         $('#sliderImg1').attr('data-chosenImage', 'false');
+        $('#sliderImg1').fadeOut(function() {
+            $('#sliderImg2').fadeIn();
+        });
+        $('#sliderImg2').attr('data-chosenImage', 'true');
     } else if ($('#sliderImg2').attr('data-chosenImage') === 'true') {
-        $('#sliderImg3').show("fade", {}, 2000);
-        $('#sliderImg3').attr('data-chosenImage', 'true');
-        $('#sliderImg2').hide();
         $('#sliderImg2').attr('data-chosenImage', 'false');
+        $('#sliderImg2').fadeOut(function () {
+            $('#sliderImg3').fadeIn();
+        });
+        $('#sliderImg3').attr('data-chosenImage', 'true');
     } else if ($('#sliderImg3').attr('data-chosenImage') === 'true') {
-        $('#sliderImg4').show("fade", {}, 2000);
-        $('#sliderImg4').attr('data-chosenImage', 'true');
-        $('#sliderImg3').hide();
         $('#sliderImg3').attr('data-chosenImage', 'false');
-    } else if ($('#sliderImg4').attr('data-chosenImage') === 'true') {
-        $('#sliderImg1').show("fade", {}, 2000);
+        $('#sliderImg3').fadeOut(function () {
+            $('#sliderImg1').fadeIn();
+        });
         $('#sliderImg1').attr('data-chosenImage', 'true');
-        $('#sliderImg4').hide();
-        $('#sliderImg4').attr('data-chosenImage', 'false');
     }
 }
-

@@ -2,7 +2,7 @@
     $.fn.extend({
 
         akordeon: function (options) {
-            var settings = $.extend({ expandedItem: 0, expandSpeed: 200, toggle: false, expandText: '&ndash;', collapseText: '+', buttons: true, hiddenItem: -1, itemsOrder: [] }, options);
+            var settings = $.extend({ expandedItem: 0, expandSpeed: 200, toggle: true, expandText: '&ndash;', collapseText: '+', buttons: true, hiddenItem: -1, itemsOrder: [] }, options);
             return this.each(function () {
 
                 var expandedItem = settings.expandedItem;

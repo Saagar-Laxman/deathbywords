@@ -189,6 +189,10 @@
     <Content Include="Images\DEATH BY WORDS LOGO.jpg" />
     <Content Include="Images\DEATH BY WORDS SITE_HOME PAGE.jpg" />
     <Content Include="Images\DEATH BY WORDS SITE_LOADING PAGE.jpg" />
+    <Content Include="Images\dracula_edited.jpg" />
+    <Content Include="Images\favicon.jpg" />
+    <Content Include="Images\frankenstein.jpg" />
+    <Content Include="Images\PsychoHouseTurquoise.jpg" />
     <Content Include="Images\Slider\background.jpg" />
     <Content Include="Images\Slider\loading_indicator.gif" />
     <Content Include="Images\Slider\quentinblake.jpg" />
