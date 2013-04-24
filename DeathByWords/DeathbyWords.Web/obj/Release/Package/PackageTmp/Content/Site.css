@@ -1,0 +1,395 @@
+﻿
+
+header, footer, nav, section {
+    display: block;
+}
+
+.siteHeading {
+    font-size: 30px;
+}
+
+.mainBody {
+    background-color: black;
+}
+
+.normalText {
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    color: white;
+}
+
+.aboutText {
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.bookText {
+    float: left; 
+    width: 65%; 
+    font-size: 26px;
+    font-family: Lucida Sans;
+    font-style: italic;
+}
+
+.mainImage {
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.bookImage {
+    width: 20%;
+}
+
+.book-wrapper {
+    border-bottom: 2px solid black;
+    display: block;
+    width: 100%;
+}
+
+
+.topMenu {
+    font-family: "Lucida Sans";
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.mainHead {
+    background-color: tan;
+}
+.heroImageShrunk {
+    
+    width: 40%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+
+}
+.heroImage {
+    width: 60%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+/* Styles for menu
+-----------------------------------------------------------*/
+
+.horizontal-nav {
+    background: black   ;
+    border-radius: 6px;
+}
+.horizontal-nav ul {
+    background: maroon;
+    float: left;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #0e7079;
+}
+.horizontal-nav ul li {
+    float: left;
+    border-left: 1px solid #0e7079;
+}
+.horizontal-nav ul li:first-child {
+    border-left: 0 none;
+}
+.horizontal-nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-family: Lucida Sans Typewriter;
+    font-style: normal;
+    font: bold;
+    font-size: 20px;
+    border-top: 1px solid rgba(255,255,255, 0.25);
+    border-left: 1px solid rgba(255,255,255, 0.25);
+}
+.horizontal-nav ul li:first-child a {
+    border-left: 0 none;
+}
+.horizontal-nav ul li a:hover {
+    background: white;
+    color: black;
+}
+.horizontal-nav ul li:first-child a {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.horizontal-nav ul li:last-child a {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+
+/* Styles for sliders
+-----------------------------------------------------------*/
+
+.slideshow-wrapper {
+    position:relative;
+    height:350px;
+}
+
+.slideshow-wrapper img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+.slideshow-wrapper img.active {
+    z-index:10;
+}
+
+.slideshow-wrapper img.last-active {
+    z-index:9;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+/*   Styles for Akordeon
+-------------------------------------------------------------*/
+
+.akordeon
+{
+    width: auto;
+    border: solid 1px black;
+    color: White;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}
+.akordeon-item
+{
+    position: relative;
+}
+.akordeon-item .akordeon-item-head
+{
+    height: 44px;
+    background: #4B4B4B; /* Old browsers */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4b4b4b), to(#303030));
+    background-image: -moz-linear-gradient(#4b4b4b, #303030);
+    background-image: -webkit-linear-gradient(#4b4b4b, #303030);
+    background-image: -o-linear-gradient(#4b4b4b, #303030);
+    background: -ms-linear-gradient(#4b4b4b, #303030);
+    background: linear-gradient(#4b4b4b, #303030);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#303030',GradientType=0 ); /* IE6-9 */ /*position:relative;*/
+    padding-top: 14px;
+}
+.akordeon-item .akordeon-item-body
+{
+    background: #424242; /* Old browsers */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#424242), to(#303030));
+    background-image: -moz-linear-gradient(#424242, #303030);
+    background-image: -webkit-linear-gradient(#424242, #303030);
+    background-image: -o-linear-gradient(#424242, #303030);
+    background: -ms-linear-gradient(#424242, #303030);
+    background: linear-gradient(#424242, #303030);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#303030',GradientType=0 ); /* IE6-9 */ /* min-height: 100px;     padding: 10px;*/
+    border-bottom: none;
+    overflow: hidden;
+}
+.akordeon-icon
+{
+    width: 34px;
+    height: 30px;
+    background: #ff0000; /* Old browsers */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff0000), to(#ff0000));
+    background-image: -moz-linear-gradient(#ff0000, #ff0000);
+    background-image: -webkit-linear-gradient(#ff0000, #ff0000);
+    background-image: -o-linear-gradient(#ff0000, #ff0000);
+    background: -ms-linear-gradient(#ff0000, #ff0000);
+    background: linear-gradient(#ff0000, #ff0000);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9f055', endColorstr='#95e21a',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; /* position: absolute;     left: -8px;       top:14px;*/
+    padding: 0;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}
+.akordeon-heading
+{
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.akordeon-icon span
+{
+    color: black;
+    font-size: 36px;
+    position: absolute;
+    left: 6px;
+    top: -6px;
+    font-weight: bold;
+    text-align: center;
+}
+.akordeon-item.expanded .akordeon-icon span
+{
+    top: -9px;
+}
+.akordeon-item-head-container
+{
+    width: 100%;
+    position: absolute;
+    left: -8px;
+    cursor: pointer;
+}
+
+.akordeon-item.expanded .akordeon-item-body
+{
+    border-top: solid 1px #5c5c5c;
+}
+.akordeon-item.collapsed
+{
+}
+
+.akordeon-item.expanded .akordeon-heading
+{
+    color: skyblue;
+}
+
+.akordeon-item.expanded .akordeon-item-head
+{
+    background: #424242 !important; /* Old browsers */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#424242), to(#303030)) !important;
+    background-image: -moz-linear-gradient(#424242, #303030) !important;
+    background-image: -webkit-linear-gradient(#424242, #303030) !important;
+    background-image: -o-linear-gradient(#424242, #303030) !important;
+    background: -ms-linear-gradient(#424242, #303030) !important;
+    background: linear-gradient(#424242, #303030) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#303030',GradientType=0 ) !important; /* IE6-9 */ /* -webkit-box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);     -moz-box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);     box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);*/
+}
+.akordeon-item-content
+{
+    padding: 10px;
+    min-height: 500px;
+    height: auto;
+    overflow:auto;
+}
+.akordeon-border-bottom
+{
+    border-bottom: solid 1px black;
+}
+.akordeon-border-top
+{
+    border-top: solid 1px black;
+}
+.akordeon-item.expanded .akordeon-item-body.akordeon-border-bottom
+{
+    border-bottom: solid 1px black !important;
+}
+.akordeon-item.akordeon-item-first .akordeon-item-head
+{
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}
+
+.akordeon-item.akordeon-item-last.collapsed .akordeon-item-head
+{
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom: none;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}
+.akordeon-item.akordeon-item-last.expanded .akordeon-item-head
+{
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom: solid 1px black;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}
+.akordeon-item.akordeon-item-last.expanded .akordeon-item-body
+{
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    behavior: url(../lib/Plugins/akordeon/source/css/PIE.htc);
+}

@@ -1,0 +1,6 @@
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Release\DeathbyWords.Core.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Release\DeathbyWords.Core.pdb
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Release\Newtonsoft.Json.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Release\Newtonsoft.Json.xml
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\obj\Release\DeathbyWords.Core.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\obj\Release\DeathbyWords.Core.pdb

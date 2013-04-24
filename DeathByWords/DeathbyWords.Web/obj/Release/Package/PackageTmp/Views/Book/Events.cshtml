@@ -1,0 +1,30 @@
+﻿@using DeathByWords.Core.Models
+@{
+    ViewBag.Title = "Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="akordeon">
+@foreach (Book book in ViewBag.ListofBooks)
+{
+    <div class="akordeon-item">
+        <div class="akordeon-item-head">
+            <div class="akordeon-item-head-container">
+                <div class="akordeon-heading normalText">
+                    @book.Title
+                </div>
+            </div>
+        </div>
+        <div class="akordeon-item-body">
+            <div class="akordeon-item-content normalText">
+                <img class="bookImage" src=@book.ImageURL/>
+                <div class="bookText" >
+                    <br/><br/><br/>
+                    Author(s): @book.Authors <br/>
+                    Description: @book.Description <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>

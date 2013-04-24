@@ -1,0 +1,14 @@
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\obj\Debug\DeathbyWords.Core.csprojResolveAssemblyReference.cache
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\bin\Debug\DeathbyWords.Services.dll
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\bin\Debug\DeathbyWords.Services.pdb
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\obj\Debug\DeathbyWords.Services.dll
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\obj\Debug\DeathbyWords.Services.pdb
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\slaxman\documents\visual studio 2012\Projects\DeathByWords\DeathbyWords.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Debug\DeathbyWords.Core.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Debug\DeathbyWords.Core.pdb
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\obj\Debug\DeathbyWords.Core.csprojResolveAssemblyReference.cache
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\obj\Debug\DeathbyWords.Core.dll
+C:\Users\slaxman\Documents\Visual Studio 2012\Projects\DeathByWords\DeathbyWords.Core\obj\Debug\DeathbyWords.Core.pdb
